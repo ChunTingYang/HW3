@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : Oct 1, 2015, 8:38:15 PM
-    Author     : ChunTingYang
+    Author     : Chun-Ting Yang
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
