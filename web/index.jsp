@@ -5,6 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>Sample Salary Calculator</title>
     </head>
     
@@ -44,16 +45,8 @@
                     </tr>
                 </tbody>                
             </table>
-            
-            <input type="reset" value="Clear" id="clear">
-            <input type="submit" value="Submit" id="submit">
-            
-            
+            <h2><input type="reset" value="Clear" id="clear"> <input type="submit" value="Submit" id="submit"></h2>
         </form>
-        <p> Today is: <%= ddMMyyyyTodayUS %>
-        <p> Hours Worked:</p>
-        <p> Hourly Pay:</p>
-        <p> Pre-tax Deduct:</p>
-        <p> Post-tax Deduct:</p>
+        <p> Today is: <%= ddMMyyyyTodayUS %></p>
     </body>
 </html>

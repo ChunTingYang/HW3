@@ -1,13 +1,13 @@
-    1<%@page contentType="text/html" pageEncoding="UTF-8"%>
+    <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Salary Info</title>
-        <link rel="stylesheet" type="text/css" href="./style.css">
+        <title>Salary Information</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <h1>Salary Info</h1>
+        <h1>Salary Information</h1>
     <%
         Integer hoursWorked = Integer.parseInt(request.getParameter ("hoursWorked"));
         Double payRate = Double.parseDouble(request.getParameter ("payRate"));
@@ -105,7 +105,7 @@
                 </tr> 
             </tbody>
         </table>
-    <h4><a href="./index.jsp">Back </h4>
+    <h2><a href="./index.jsp">Back </h2>
     </body>
 </html>
 
